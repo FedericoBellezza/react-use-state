@@ -9,7 +9,7 @@ export default function () {
         return <Button data={element} />;
       })}
       {languages.map((element) => {
-        return <Accordion data={element} />;
+        return <Accordion data={element} isOpen={false} />;
       })}
     </main>
   );
